@@ -1,0 +1,176 @@
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    color: #18a173;
+   
+    
+}
+body{
+    font-size: 16px;
+}
+
+/*navigation bar*/
+nav{
+    flex-wrap: wrap;
+    height: 60px;
+    background-color: rgb(245, 238, 229);
+}
+ul{
+    display: flex;
+    justify-content: space-around;   
+}
+li{
+    padding: 12px;
+    margin-top: 10px;
+    list-style: none;
+    transition-duration: 0.25s;
+}
+.navclick :hover{
+    color: rgba(203, 208, 239, 0.678);
+    transition-duration: 0.4s;
+    transition-property: font-size;
+    font-size: 1.1rem;  
+    
+}
+
+/*cover*/
+
+
+#p1{
+    font-size: 1.5rem;
+    color: rgb(146, 96, 35);
+    text-align: center;
+    padding: 30px 0 10px;
+
+}
+#p2{
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: rgb(208, 133, 53);
+    text-align: center;
+    padding: 10px;
+}
+#p3{
+    font-size:1.2rem;
+    color: rgb(86, 153, 155);
+    text-align: center;
+    padding: 22px;
+}
+#p4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(243, 88, 98);
+    text-align: center;
+    padding: 0 0 10px;
+    word-spacing: 20px;
+}
+article > p{
+    background-color: rgb(209, 244, 249);
+}
+article > img{
+    width: 100vw;
+    -webkit-filter: brightness(90%);
+}
+
+
+/*main*/
+main {
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+}
+main section {
+    height:30vh;
+    width: 100vw;
+
+}
+
+/*blog*/
+.blog a {
+    font-size: 4rem;
+    color: rgb(202, 207, 207);
+    text-decoration:none;
+    font-weight: bold;
+    transition: 0.5s;
+    
+}
+
+.blog a:hover{
+    color: rgb(202, 225, 225);
+    text-decoration:none;
+    font-size:5rem;
+    transition: 0.5s;
+}
+
+.blog{
+    padding: 90px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(ocean.png) ;
+    background-size: cover;
+}
+
+/*about*/
+
+.about a {
+    font-size: 4rem;
+    color: rgb(235, 211, 179);
+    text-decoration:none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.about a:hover{
+    color: rgb(243, 232, 217);
+    text-decoration:none;
+    font-size: 5rem;
+    transition: 0.5s;
+}
+
+.about{
+    padding: 90px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(mountain.png) ;
+    background-size: cover;
+}
+
+/*contact*/
+
+.contact a {
+    font-size: 4rem;
+    color: rgb(187, 187, 189);
+    text-decoration:none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.contact a:hover{
+    color: rgb(223, 223, 227);
+    text-decoration:none;
+    font-size: 5rem;
+    transition: 0.5s;
+}
+
+.contact{
+    
+    padding: 90px 22px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(milky\ way.png) ;
+    background-size: cover;
+}
+
+/*social links*/
+
+.social-links {
+    padding: 12px 0 8px 12px;
+    background-color:rgb(136, 140, 198);
+    word-spacing: 10px;
+}
+
+footer{
+    text-align: center;
+}
