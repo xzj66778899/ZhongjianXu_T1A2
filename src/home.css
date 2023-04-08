@@ -112,7 +112,7 @@ main section {
 
 .blog{
     padding: 90px;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(ocean.png) ;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(image/ocean.png) ;
     background-size: cover;
 }
 
@@ -135,7 +135,7 @@ main section {
 
 .about{
     padding: 90px;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(mountain.png) ;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(image/mountain.png) ;
     background-size: cover;
 }
 
@@ -159,7 +159,7 @@ main section {
 .contact{
     
     padding: 90px 22px;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(milky\ way.png) ;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(image/milky\ way.png) ;
     background-size: cover;
 }
 
@@ -167,7 +167,7 @@ main section {
 
 .social-links {
     padding: 12px 0 8px 12px;
-    background-color:rgb(136, 140, 198);
+    background-color:rgb(153, 157, 215);
     word-spacing: 10px;
 }
 
