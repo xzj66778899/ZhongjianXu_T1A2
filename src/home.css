@@ -166,9 +166,10 @@ main section {
 /*social links*/
 
 .social-links {
-    padding: 12px 0 8px 12px;
+    padding: 12px 0 8px;
     background-color:rgb(153, 157, 215);
-    word-spacing: 10px;
+    text-align: center;
+    word-spacing: 3rem;
 }
 
 footer{
