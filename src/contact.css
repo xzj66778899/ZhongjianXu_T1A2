@@ -14,7 +14,6 @@
 
 .pagesnav {
   flex-wrap: wrap;
-  height: 60px;
   background-color: rgb(245, 238, 229);
 }
 ul {
@@ -22,13 +21,13 @@ ul {
   justify-content: space-around;
 }
 li {
-  padding: 12px;
-  margin-top: 10px;
+  padding: 0.3rem;
+  margin: 0.2rem;
   list-style: none;
   transition-duration: 0.25s;
 }
 .navclick :hover {
-  color: rgba(203, 208, 239, 0.678);
+  color: rgba(50, 112, 77, 0.678);
   transition-duration: 0.4s;
   transition-property: font-size;
   font-size: 1.1rem;
@@ -64,4 +63,26 @@ main h3{
 
 footer {
   text-align: center;
+}
+
+
+/*mobile display*/
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  * {
+    font-size: 20px;
+  }
+}
+
+/*table display*/
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  * {
+    font-size: 22px;
+  }
+}
+
+/*table display*/
+@media screen and (min-width: 1200px){
+  * {
+    font-size: 27px;
+  }
 }

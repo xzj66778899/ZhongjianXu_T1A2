@@ -20,7 +20,6 @@ body {
 
 .pagesnav {
   flex-wrap: wrap;
-  height: 60px;
   background-color: rgb(245, 238, 229);
 }
 ul {
@@ -28,13 +27,13 @@ ul {
   justify-content: space-around;
 }
 li {
-  padding: 12px;
-  margin-top: 10px;
+  padding: 0.3rem;
+  margin: 0.2rem;
   list-style: none;
   transition-duration: 0.25s;
 }
 .navclick :hover {
-  color: rgba(203, 208, 239, 0.678);
+  color: rgba(50, 112, 77, 0.678);
   transition-duration: 0.4s;
   transition-property: font-size;
   font-size: 1.1rem;
@@ -51,9 +50,9 @@ li {
 }
 
 .bottomnav {
-    justify-content: center;
-    margin:0 0 20px;
-  }
+  justify-content: center;
+  margin: 0 0 20px;
+}
 
 .blognav a,
 .bottomnav a {
@@ -62,18 +61,18 @@ li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
 /*blog content*/
 h1 {
+  font-size: 2rem;
   padding: 5px 0 5px;
 }
 h5 {
+  font-size: 1.5rem;
   padding: 0 0 12px;
 }
 
 .container {
-  display: flex;
+  display: flex; 
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -93,8 +92,8 @@ article > section {
 }
 
 .blog_img {
-    width: 100%;
-    padding: 20px 0;
+  width: 100%;
+  padding: 20px 0;
 }
 
 /*social linkls*/
@@ -106,5 +105,52 @@ article > section {
 }
 
 footer {
-  text-align: center
+  text-align: center;
 }
+
+/*mobile display*/
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  * {
+    font-size: 20px;
+  }
+}
+
+/*tablet display*/
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  * {
+    font-size: 22px;
+  }
+
+  .container {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+article > section{
+  width: 47vw;
+  margin: 10px;
+}
+
+}
+
+/*desktop display*/
+@media screen and (min-width: 1200px)  {
+  * {
+    font-size: 27px;
+  }
+
+  .container {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+article > section{
+  width: 47vw;
+  margin: 10px;
+}
+}
+
