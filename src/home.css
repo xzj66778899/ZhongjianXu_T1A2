@@ -26,13 +26,13 @@ li {
   padding: 0.3rem;
   margin: 0.2rem;
   list-style: none;
-  transition-duration: 0.25s;
+  transition-duration: 0.5s;
+  font-size: 1rem;
 }
 .navclick :hover {
-  color: rgba(50, 112, 77, 0.678);
-  transition-duration: 0.4s;
-  transition-property: font-size;
-  font-size: 1.1rem;
+  transition-duration:0.5s;
+  transform: scale(1.15);
+  transition-property: transform;
 }
 
 /*cover*/
@@ -80,12 +80,11 @@ aside > img {
   -webkit-filter: brightness(90%);
 }
 
-/*ipad flex container*/
+/*for bigger display flex container*/
 main > article {
   text-align: center;
 }
 main section {
-  height: 30vh;
   width: 100vw;
 }
 
@@ -95,18 +94,18 @@ main section {
 
 /*blog*/
 .blog a {
- font-size: 4rem;
+ font-size: 2rem;
   color: rgb(202, 207, 207);
   text-decoration: none;
   font-weight: bold;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 .blog a:hover {
   color: rgb(202, 225, 225);
   text-decoration: none;
-  font-size: 5rem;
-  transition: 0.5s;
+  font-size: 2.5rem;
+  transition: 0.7s;
 }
 
 .blog {
@@ -119,18 +118,18 @@ main section {
 /*about*/
 
 .about a {
-  font-size: 4rem;
+  font-size: 2rem;
   color: rgb(235, 211, 179);
   text-decoration: none;
   font-weight: bold;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 .about a:hover {
   color: rgb(243, 232, 217);
   text-decoration: none;
-  font-size: 5rem;
-  transition: 0.5s;
+  font-size: 2.5rem;
+  transition: 0.7s;
 }
 
 .about {
@@ -143,18 +142,18 @@ main section {
 /*contact*/
 
 .contact a {
-  font-size: 4rem;
+  font-size: 2rem;
   color: rgb(187, 187, 189);
   text-decoration: none;
   font-weight: bold;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 .contact a:hover {
   color: rgb(223, 223, 227);
   text-decoration: none;
-  font-size: 5rem;
-  transition: 0.5s;
+  font-size: 2.5rem;
+  transition: 0.7s;
 }
 
 .contact {
@@ -167,8 +166,8 @@ main section {
 /*social links*/
 
 .social-links {
-  padding: 12px 0 8px;
-  background-color: rgb(153, 157, 215);
+  padding: 12px 0 8px 0;
+  background-color: rgb(196, 199, 246);
   text-align: center;
   word-spacing: 3rem;
 }
@@ -208,18 +207,17 @@ footer {
     -webkit-filter: brightness(90%);
   }
 
-  .main_content section a {
-    font-size: 2.5rem;
-  }
-
-  .main_content section a:hover {
-    font-size: 3rem;
-  }
-
   .ipad_container,
   .main_content {
     display: flex;
   }
+
+  .social-links,footer{
+    text-align: right;
+    word-spacing: 0;
+    padding: 12px 12px 12px 0;
+  }
+
 }
 
 /*desktop dispaly*/
@@ -255,4 +253,17 @@ footer {
   .main_content {
     display: flex;
   }
+
+  article,
+  aside img {
+    width: 50vw;
+    height: 75vh;
+  }
+
+  .social-links,footer{
+    text-align: right;
+    word-spacing: 0;
+    padding: 12px 12px 12px 0;
+  }
+
 }

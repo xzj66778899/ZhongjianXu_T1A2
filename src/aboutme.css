@@ -28,9 +28,9 @@ li {
 }
 .navclick :hover {
   color: rgba(50, 112, 77, 0.678);
-  transition-duration: 0.4s;
-  transition-property: font-size;
-  font-size: 1.1rem;
+  transition-duration:0.4s;
+  transform: scale(1.15);
+  transition-property: transform;
 }
 
 .container {
@@ -66,7 +66,7 @@ main section {
 
 .social-links {
   padding: 12px 0 8px;
-  background-color: rgb(153, 157, 215);
+  background-color: rgb(196, 199, 246);
   text-align: center;
   word-spacing: 3rem;
 }
@@ -80,6 +80,12 @@ footer {
   * {
     font-size: 20px;
   }
+
+  .social-links,footer{
+    text-align: right;
+    word-spacing: 0;
+    padding: 12px 12px 12px 0;
+  }
 }
 
 /*table display*/
@@ -87,11 +93,22 @@ footer {
   * {
     font-size: 22px;
   }
+  .social-links,footer{
+    text-align: right;
+    word-spacing: 0;
+    padding: 12px 12px 12px 0;
+  }
 }
 
 /*desktop display*/
 @media screen and (min-width: 1200px){
   * {
     font-size: 27px;
+  }
+
+  .social-links,footer{
+    text-align: right;
+    word-spacing: 0;
+    padding: 12px 12px 12px 0;
   }
 }
