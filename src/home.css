@@ -233,13 +233,6 @@ li{
   margin: 0 2vw 0 0;
 }
   
-  
-  article,
-  aside img {
-    width: 50vw;
-    height: 50vh;
-  }
-
   aside img {
     object-fit: cover;
   }
@@ -262,10 +255,10 @@ li{
     display: flex;
   }
 
-  article,
+  main article,
   aside img {
     width: 50vw;
-    height: 75vh;
+    height: 65vh;
   }
 
   .social-links,
