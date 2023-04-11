@@ -28,7 +28,7 @@ li {
 }
 .navclick :hover {
   color: rgba(50, 112, 77, 0.678);
-  transition-duration:0.4s;
+  transition-duration: 0.4s;
   transform: scale(1.15);
   transition-property: transform;
 }
@@ -45,11 +45,11 @@ main {
   font-size: 1.2rem;
   width: 400px;
   padding: 10px;
-  background-color:  rgb(219, 245, 214);
+  background-color: rgb(219, 245, 214);
 }
 
-main h3{
-    padding: 0 0 10px;
+main h3 {
+  padding: 0 0 10px;
 }
 
 /*social links*/
@@ -65,7 +65,6 @@ footer {
   text-align: center;
 }
 
-
 /*mobile display*/
 @media screen and (min-width: 481px) and (max-width: 767px) {
   * {
@@ -73,26 +72,35 @@ footer {
   }
 }
 
-/*table display*/
+/*tablet display*/
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   * {
     font-size: 22px;
   }
 
-  .social-links,footer{
+  .social-links,
+  footer {
     text-align: right;
     word-spacing: 0;
     padding: 12px 12px 12px 0;
   }
 }
 
-/*table display*/
-@media screen and (min-width: 1200px){
+/*desktop display*/
+@media screen and (min-width: 1200px) {
   * {
     font-size: 27px;
   }
 
-  .social-links,footer{
+  .navclick{
+    justify-content: end;
+  }
+  li{
+    margin: 0 2vw 0 0;
+  }
+
+  .social-links,
+  footer {
     text-align: right;
     word-spacing: 0;
     padding: 12px 12px 12px 0;

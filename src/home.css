@@ -15,7 +15,6 @@ body {
 
 /*navigation bar*/
 nav {
-  flex-wrap: wrap;
   background-color: rgb(245, 238, 229);
 }
 ul {
@@ -30,9 +29,8 @@ li {
   font-size: 1rem;
 }
 .navclick :hover {
-  transition-duration:0.5s;
+  transition-duration: 0.5s;
   transform: scale(1.15);
-  transition-property: transform;
 }
 
 /*cover*/
@@ -94,7 +92,7 @@ main section {
 
 /*blog*/
 .blog a {
- font-size: 2rem;
+  font-size: 2rem;
   color: rgb(202, 207, 207);
   text-decoration: none;
   font-weight: bold;
@@ -212,12 +210,12 @@ footer {
     display: flex;
   }
 
-  .social-links,footer{
+  .social-links,
+  footer {
     text-align: right;
     word-spacing: 0;
     padding: 12px 12px 12px 0;
   }
-
 }
 
 /*desktop dispaly*/
@@ -226,6 +224,14 @@ footer {
     font-size: 27px;
   }
 
+.navclick{
+  justify-content: end;
+}
+li{
+  margin: 0 2vw 0 0;
+}
+  
+  
   article,
   aside img {
     width: 50vw;
@@ -260,10 +266,10 @@ footer {
     height: 75vh;
   }
 
-  .social-links,footer{
+  .social-links,
+  footer {
     text-align: right;
     word-spacing: 0;
     padding: 12px 12px 12px 0;
   }
-
 }

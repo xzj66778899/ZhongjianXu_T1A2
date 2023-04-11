@@ -9,6 +9,7 @@ body {
     url(image/blog.png);
   background-position: 63%;
   background-size: cover;
+  
 }
 
 /*page navigation*/
@@ -34,7 +35,7 @@ li {
 }
 .navclick :hover {
   color: rgba(50, 112, 77, 0.678);
-  transition-duration:0.4s;
+  transition-duration: 0.4s;
   transform: scale(1.15);
   transition-property: transform;
 }
@@ -63,7 +64,7 @@ li {
 
 .blognav a:hover,
 .bottomnav a:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 /*blog content*/
@@ -77,7 +78,7 @@ h5 {
 }
 
 .container {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -126,42 +127,49 @@ footer {
     font-size: 22px;
   }
 
+  article > section {
+    width: 77vw;
+    margin: 10px;
+  }
 
-article > section{
-  width: 77vw;
-  margin: 10px;
-}
-
-.social-links,footer{
-  text-align: right;
-  word-spacing: 0;
-  padding: 12px 12px 12px 0;
-}
+  .social-links,
+  footer {
+    text-align: right;
+    word-spacing: 0;
+    padding: 12px 12px 12px 0;
+  }
 }
 
 /*desktop display*/
-@media screen and (min-width: 1200px)  {
+@media screen and (min-width: 1200px) {
   * {
     font-size: 27px;
   }
 
+  .navclick{
+    justify-content: end;
+  }
+  li{
+    margin: 0 2vw 0 0;
+  }
+
   .container {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-article > section{
-  width: 43vw;
-  margin: 35px;
-  font-size: 1.1rem;
-}
+  article > section {
+    width: 43vw;
+    margin: 35px;
+    font-size: 1.1rem;
+  }
 
-.social-links,footer{
-  text-align: right;
-  word-spacing: 0;
-  padding: 12px 12px 12px 0;
+  .social-links,
+  footer {
+    text-align: right;
+    word-spacing: 0;
+    padding: 12px 12px 12px 0;
+  }
 }
-}
-
