@@ -35,7 +35,7 @@ li {
 
 /*cover*/
 
-article {
+main article {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -69,25 +69,27 @@ article {
   padding: 0 0 10px;
   word-spacing: 20px;
 }
-article > p {
+article p {
   background-color: rgb(209, 244, 249);
 }
-aside > img {
+aside img {
   display: block;
   width: 100vw;
   -webkit-filter: brightness(90%);
 }
 
 /*for bigger display flex container*/
-main > article {
+main article {
   text-align: center;
 }
-main section {
+body > article {
   width: 100vw;
+  text-align: center;
 }
 
-.mian_content {
-  text-align: center;
+body > article > section 
+{
+  width: 100vw;
 }
 
 /*blog*/
@@ -187,7 +189,7 @@ footer {
     font-size: 22px;
   }
 
-  article,
+  main article,
   aside img {
     width: 50vw;
     height: 50vh;
